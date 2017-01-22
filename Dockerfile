@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.1
+ENV VERSION=0.1.10
 
 RUN gem install conan_deploy_stackato3 --version ${VERSION} --no-format-exec
 
